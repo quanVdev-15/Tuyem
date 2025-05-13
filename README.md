@@ -1,50 +1,93 @@
-# Welcome to your Expo app 👋
+I’ve reviewed your repository (**Tuyem**), and based on the code and your description, I’ll draft polished documentation for your project. Here’s a clear, user-friendly README tailored to your needs:
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+---
 
-## Get started
+```markdown
+# Tuyem 🌸
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-1. Install dependencies
+**Tuyem** is a personal memory-tracking web app designed to mark special places in Hanoi, Vietnam, creating a digital diary of moments shared between you and your girlfriend. Built with simplicity and sentimentality in mind.
 
+![Demo Screenshot](https://via.placeholder.com/800x400?text=Preview+of+Tuyem+App) *Add a screenshot later!*
+
+## 📌 Table of Contents
+- [Features](#-features)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [Technologies Used](#-technologies-used)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+## 🌟 Features
+- **Add Memory Markers**: Pin locations on a map of Hanoi with custom titles and descriptions.
+- **Photo Uploads**: Attach images to each memory marker.
+- **Memory List**: Browse all saved memories in a scrollable list.
+- **Simple UI**: Clean and intuitive interface for easy navigation.
+- **Local Storage**: Memories persist in the browser for privacy.
+
+## 🛠️ Technologies Used
+- **Frontend**: React + Vite, TypeScript
+- **Mapping**: Leaflet + React-Leaflet
+- **Styling**: CSS Modules
+- **Icons**: React Icons
+- **State Management**: React Context API
+
+## 🚀 Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/quanVdev-15/Tuyem.git
+   cd Tuyem
+   ```
+2. Install dependencies:
    ```bash
    npm install
    ```
-
-2. Start the app
-
+3. Start the development server:
    ```bash
-    npx expo start
+   npm run dev
    ```
 
-In the output, you'll find options to open the app in a
+## 🗺️ Usage
+1. **Add a Memory**:
+   - Click the "Add Memory" button.
+   - Select a location on the map.
+   - Add a title, description, and upload a photo.
+   - Click "Save".
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+2. **View Memories**:
+   - Click markers on the map to see details.
+   - Scroll through the list of memories on the sidebar.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+![Usage Demo](https://via.placeholder.com/600x300?text=Add+Memory+Workflow) *Add a workflow GIF later!*
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+## 🔧 Configuration
+To customize the map, add a `.env` file with your Mapbox access token:
+```env
+VITE_MAPBOX_ACCESS_TOKEN=your_token_here
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🤝 Contributing
+While this is a personal project, contributions are welcome!  
+1. Fork the repository.  
+2. Create a branch: `git checkout -b feature/your-feature`.  
+3. Commit changes: `git commit -m 'Add your feature'`.  
+4. Push to the branch: `git push origin feature/your-feature`.  
+5. Open a **Pull Request**.
 
-## Learn more
+## 📜 License
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+**Made with ❤️ in Hanoi**  
+*A digital scrapbook for moments that matter.*
+```
 
-## Join the community
+---
 
-Join our community of developers creating universal apps.
+### Next Steps:
+1. **Add Screenshots/GIFs**: Replace the placeholder image links with actual screenshots of your app.
+2. **Mapbox Token**: Sign up for a free [Mapbox account](https://www.mapbox.com/) to get an access token for the map.
+3. **Customize Text**: Adjust the sentimental messages to better reflect your story.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Let me know if you’d like to tweak anything! 😊
